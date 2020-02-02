@@ -42,6 +42,7 @@
                 storageRef.on(`state_changed`, snapshot => {
                         this.uploadValue = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
                     }, error => {
+                        // eslint-disable-next-line no-console
                         console.log(error.message)
                     },
                     () => {

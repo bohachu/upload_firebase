@@ -1,0 +1,7 @@
+== 20200202 17:03
+先實驗是不是可以手機上傳照片，專案發佈到 cameo.tw 用手機實驗
+17:14 手機實驗已經可以，但是在 dist/index.html 相對路徑要整個重新設定才行，前面絕對路徑斜線要刪除
+
+
+== build release
+vue-cli-service build
